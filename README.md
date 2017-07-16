@@ -1,6 +1,6 @@
-# jest-environment-node-debug-fixed
+# jest-environment-jsdom-debug
 
-Version of jest-environment-node-debug which works with Nodev7 and Jest 18
+Allows debugging of Jest tests with jsdom environment
 
 My preferred way to debug tests is using [devtool](https://www.npmjs.com/package/devtool)
 
