@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NikhilVerma/jest-environment-jsdom-debug-fixed.git"
+    "url": "git+https://github.com/NikhilVerma/jest-environment-jsdom-debug.git"
   },
   "keywords": [
     "jest",
@@ -19,9 +19,9 @@
   ],
   "author": "develar",
   "bugs": {
-    "url": "https://github.com/NikhilVerma/jest-environment-jsdom-debug-fixed/issues"
+    "url": "https://github.com/NikhilVerma/jest-environment-jsdom-debug/issues"
   },
-  "homepage": "https://github.com/NikhilVerma/jest-environment-jsdom-debug-fixed#readme",
+  "homepage": "https://github.com/NikhilVerma/jest-environment-jsdom-debug#readme",
   "dependencies": {
     "devtool": "^2.3.1",
     "jest": "^19.0.1"
