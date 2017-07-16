@@ -1,0 +1,29 @@
+{
+  "name": "jest-environment-jsdom-debug",
+  "version": "1.0.0",
+  "description": "Allows debugging of Jest tests with jsdom environment",
+  "main": "index.js",
+  "scripts": {
+    "devtool": "devtool ./node_modules/jest-cli/bin/jest.js -i --no-cache --config=debug-test/jest.debug.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikhilVerma/jest-environment-jsdom-debug-fixed.git"
+  },
+  "keywords": [
+    "jest",
+    "node",
+    "debug",
+    "inspector",
+    "devtools"
+  ],
+  "author": "develar",
+  "bugs": {
+    "url": "https://github.com/NikhilVerma/jest-environment-jsdom-debug-fixed/issues"
+  },
+  "homepage": "https://github.com/NikhilVerma/jest-environment-jsdom-debug-fixed#readme",
+  "dependencies": {
+    "devtool": "^2.3.1",
+    "jest": "^19.0.1"
+  }
+}
