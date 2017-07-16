@@ -1,6 +1,6 @@
 {
   "name": "jest-environment-jsdom-debug",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows debugging of Jest tests with jsdom environment",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,7 @@
     "jest",
     "node",
     "debug",
+    "jsdom",
     "inspector",
     "devtools"
   ],
