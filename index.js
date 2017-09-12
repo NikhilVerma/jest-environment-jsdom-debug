@@ -47,7 +47,14 @@ function assign(target) {
 
 class NodeDebugEnvironment {
     constructor(config) {
-        const doc = require('jsdom').jsdom(undefined, {
+        // jsdom v10+ has new api, but retains support for old api
+        try {
+          var jsdom = require('jsdom/lib/old-api.js')
+        } catch (e) {
+          var jsdom = require('jsdom')
+        }
+
+       const doc = jsdom.jsdom(undefined, {
             url: config.testURL
         });
 
